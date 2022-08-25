@@ -1,10 +1,13 @@
-import React from 'react'
-import Link from "next/link"
+/** @format */
+
+import React from "react";
+import Link from "next/link";
+import styles from "../styles/Navbar.module.css";
 
 function Navbar() {
   return (
-    <div>
-      <div>
+    <div className={styles.navbar}>
+      <div className={styles.links}>
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/profile">Profile</Link>
@@ -13,4 +16,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;

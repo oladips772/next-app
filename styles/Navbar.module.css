@@ -1,0 +1,21 @@
+/** @format */
+.navbar {
+  height: 60px;
+  background-color: coral;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitw;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+.links a {
+  margin: 0 13px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
